@@ -17,7 +17,7 @@ async def start(c, m):
 
 `I can help you to get stylish fonts. Just send me some text and see magic.`
 
-** Developer by :** ❤️ ▷ [@ZauteKm](https://t.me/ZauteKm/346)
+** Developer by :** ❤️ ▷ [@ZauteKm](https://t.me/ZauteKm/346) [.](https://telegra.ph/file/d49d9f8b692ede49a291d.mp4)
 """
 
     # Buttons
