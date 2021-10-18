@@ -13,7 +13,7 @@ async def start(c, m):
     # start text
     text = f""" *HOLA* ! {m.from_user.mention(style='md')},
 
-** 𝑰 𝒂𝒎 𝑺𝒕𝒚𝒍𝒊𝒔𝒉 𝑭𝒐𝒏𝒕 𝑩𝒐𝒕 ✍️ **
+** 𝑰 𝒂𝒎 𝙋𝙞𝙜𝙖𝙨𝙪𝙨 𝑺𝒕𝒚𝒍𝒊𝒔𝒉 𝑭𝒐𝒏𝒕 𝑩𝒐𝒕 ✍️ **
 **𝑰 𝒄𝒂𝒏 𝒉𝒆𝒍𝒑 𝒚𝒐𝒖 𝒕𝒐 𝒈𝒆𝒕 𝒔𝒕𝒚𝒍𝒊𝒔𝒉 𝒇𝒐𝒏𝒕𝒔. 𝑱𝒖𝒔𝒕 𝒔𝒆𝒏𝒅 𝒎𝒆 𝒔𝒐𝒎𝒆 𝒕𝒆𝒙𝒕 𝒂𝒏𝒅 𝒔𝒆𝒆 𝒎𝒂𝒈𝒊𝒄. **
  𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 𝒃𝒚 : ❤️ ▷ [@Aryanjawale](https://t.me/Aryanjawale) [.](https://telegra.ph/file/d49d9f8b692ede49a291d.mp4)
 """
@@ -30,7 +30,11 @@ async def start(c, m):
             ],[
             InlineKeyboardButton('𝙋𝙞𝙜𝙖𝙨𝙪𝙨 𝙐𝙥𝙙𝙖𝙩𝙚𝙨', url=f"https://t.me/PigasusUpdates")
         ]
-
+    ]
+    await m.reply_text(
+        text=text,
+        reply_markup=InlineKeyboardMarkup(buttons)
+    )
 
 
 @Client.on_message(filters.private & filters.incoming & filters.text)
