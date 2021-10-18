@@ -21,20 +21,15 @@ async def start(c, m):
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('👥 Group', url=f"https://t.me/iZaute/5"),
-            InlineKeyboardButton('Channel 📢', url=f"https://t.me/iZaute/6")
+            InlineKeyboardButton('🫂𝑺𝒖𝒑𝒑𝒐𝒓𝒕', url=f"https://t.me/trainer_zone"),
+            InlineKeyboardButton('📝𝐎𝐦𝐧𝐢𝐭𝐫𝐢𝐱 𝐋𝐨𝐠𝐬', url=f"https://t.me/Scorbunny_logs")
             ],[
-            InlineKeyboardButton('❤️ Credit', url=f"https://t.me/{owner_username}"),
-            InlineKeyboardButton('Bot Lists 🤖', url=f"https://t.me/iZaute/8"),
-            InlineKeyboardButton('GitHup 🤣', url=f"https://github.com/ZauteKm")
+            InlineKeyboardButton('♕🄾🅆🄽🄴🅁', url=f"https://t.me/{owner_username}"),
+            InlineKeyboardButton('ᑭIᘜᗩՏᑌՏ ՏᑌᑭᑭOᖇT', url=f"https://t.me/PigasusSupport"),
+            InlineKeyboardButton('𝗣𝗜𝗚𝗔𝗦𝗨𝗦 𝗟𝗢𝗚𝗦', url=f"https://t.me/PigasusLogs")
             ],[
-            InlineKeyboardButton('⚜️ Subscribe Now YouTube ⚜️', url=f"https://youtube.com/c/ZauteKm")
+            InlineKeyboardButton('𝙋𝙞𝙜𝙖𝙨𝙪𝙨 𝙐𝙥𝙙𝙖𝙩𝙚𝙨', url=f"https://t.me/PigasusUpdates")
         ]
-    ]
-    await m.reply_text(
-        text=text,
-        reply_markup=InlineKeyboardMarkup(buttons)
-    )
 
 
 
