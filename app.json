@@ -21,15 +21,15 @@
     },
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "4759912"
     },
     "OWNER_ID": {
       "description": "give your telegram user id here",
-      "value": "1684438752"
+      "value": "1323719429"
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "5bcc548f108e30a913a339a4f97f315c"
     }
   },
   "addons": [
